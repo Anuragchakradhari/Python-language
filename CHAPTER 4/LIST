@@ -1,0 +1,13 @@
+# list is like an array but list can store different type of data in it 
+# unlike strings lists aref mutable
+a= ["harry",] # single element containing list 
+b= ["harry", 2.3, 34, True, "Anurag"]
+print(b[1:3]) # Slicing of list , it gives index 1 to 2 element excluding 3rd index
+
+a.append(34) #append is a method of string which adds any data in the end of the list
+print(a)
+a.extend([4,5,"Anurag"]) #extend can add multiple elements to the end of the list
+print(a)
+
+a.insert(2,10)
+print(a)
